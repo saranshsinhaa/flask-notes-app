@@ -1,6 +1,6 @@
 # flask-notes-app
 
-# hosted at : wraith17.pythonanywhere.com/
+# hosted at : https://wraith17.pythonanywhere.com/
 
 # An simple web app Created using HTML, CSS and BOOTSTRAP for the FrontEnd 
 
