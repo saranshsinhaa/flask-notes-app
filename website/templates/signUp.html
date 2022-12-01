@@ -1,32 +1,54 @@
-{% extends "base.html" %}  {% block title %}Sign Up{% endblock %}
-{% block testDiv %}<h1>test</h1>{% endblock %}
-{% block mainContent %}
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
+testDiv %}
+<h1>test</h1>
+{% endblock %} {% block mainContent %}
 <form method="POST">
-    <h3 align="center">Sign Up</h3>
-    <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+  <h3 align="center">Sign Up</h3>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      placeholder="Enter Email Address"
+    />
 
-        <label for="firstName">First Name</label>
-        <input type="text" class="form-control" id="first_name" name= "first_name" placeholder="Enter First Name">
+    <label for="firstName">First Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="first_name"
+      name="first_name"
+      placeholder="Enter First Name"
+    />
 
-        <label for="password1">Password</label>
-        <input type="password" class="form-control" id="password1" name="password1" placeholder="Enter Password">
+    <label for="password1">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password1"
+      name="password1"
+      placeholder="Enter Password"
+    />
 
-        <label for="password2">Confirm Password</label>
-        <input type="password" class="form-control" id="password2" name="password2" placeholder="Please Re-enter Password">
-    </div>
-    <br>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <label for="password2">Confirm Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password2"
+      name="password2"
+      placeholder="Please Re-enter Password"
+    />
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
-<div style="margin-top: 40px;">
-    <button type="button" class="btn btn-danger"><a class="btn" style="color: white;" href="/login">Login</a></button>
+<div style="margin-top: 40px">
+  <button type="button" class="btn btn-danger">
+    <a class="btn" style="color: white" href="/login">Login</a>
+  </button>
 </div>
 
 {% endblock %}
-
-
-
-
-
