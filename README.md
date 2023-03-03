@@ -1,6 +1,6 @@
 # flask-notes-app
 
-# hosted at : https://flask-notes-app.wraithx17.repl.co/login
+# hosted at : https://flask-notes-app.wraithx17.repl.co
 
 # An simple web app Created using HTML, CSS and BOOTSTRAP for the FrontEnd 
 
